@@ -2,7 +2,7 @@
   "name": "fl",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://you55efmansour/github.io/FWS",
+  "homepage": "https://you55efmansour.github.io/FWS",
   "dependencies": {
     "@craco/craco": "^7.1.0",
     "@fortawesome/fontawesome-svg-core": "^6.7.2",
