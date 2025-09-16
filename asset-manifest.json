@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/github.com/FWS/static/css/main.3fe5531c.css",
+    "main.js": "/github.com/FWS/static/js/main.44b500d4.js",
+    "static/js/814.03f2c9e8.chunk.js": "/github.com/FWS/static/js/814.03f2c9e8.chunk.js",
+    "static/css/127.879c01fa.chunk.css": "/github.com/FWS/static/css/127.879c01fa.chunk.css",
+    "static/js/127.ea1954a4.chunk.js": "/github.com/FWS/static/js/127.ea1954a4.chunk.js",
+    "static/js/114.7368fb8e.chunk.js": "/github.com/FWS/static/js/114.7368fb8e.chunk.js",
+    "static/js/446.fb299f39.chunk.js": "/github.com/FWS/static/js/446.fb299f39.chunk.js",
+    "static/js/55.ed3a4cf5.chunk.js": "/github.com/FWS/static/js/55.ed3a4cf5.chunk.js",
+    "static/media/login-img.jpeg": "/github.com/FWS/static/media/login-img.19435c5f7d9aafa733a3.jpeg",
+    "index.html": "/github.com/FWS/index.html",
+    "main.3fe5531c.css.map": "/github.com/FWS/static/css/main.3fe5531c.css.map",
+    "main.44b500d4.js.map": "/github.com/FWS/static/js/main.44b500d4.js.map",
+    "814.03f2c9e8.chunk.js.map": "/github.com/FWS/static/js/814.03f2c9e8.chunk.js.map",
+    "127.879c01fa.chunk.css.map": "/github.com/FWS/static/css/127.879c01fa.chunk.css.map",
+    "127.ea1954a4.chunk.js.map": "/github.com/FWS/static/js/127.ea1954a4.chunk.js.map",
+    "114.7368fb8e.chunk.js.map": "/github.com/FWS/static/js/114.7368fb8e.chunk.js.map",
+    "446.fb299f39.chunk.js.map": "/github.com/FWS/static/js/446.fb299f39.chunk.js.map",
+    "55.ed3a4cf5.chunk.js.map": "/github.com/FWS/static/js/55.ed3a4cf5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3fe5531c.css",
+    "static/js/main.44b500d4.js"
+  ]
+}
