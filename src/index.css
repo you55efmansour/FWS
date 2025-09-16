@@ -1,0 +1,129 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+a{
+  color: black !important;
+  text-decoration: none;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+/* login page  */
+.login-page{
+  background-size: cover;
+  background-image: url('./components/login/login-img.jpeg');
+  position: relative;
+}
+.login-page::before{
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  position: absolute;
+  left: 0;
+  opacity: 0.2;
+  z-index: 0;
+}
+
+.map {
+  position: relative !important;
+  z-index: 1 !important;
+}
+
+.pop-size {
+  position: fixed;
+  top: 10px;
+  left: 15px;
+  width: 98vw;
+  height: 98vh;
+  z-index: 1000 ; /* Ensure it's above the map */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  display: none; /* Hidden by default */
+   overflow-x: hidden;
+}
+
+
+
+.pop-size.open {
+  display: flex; /* Show when the 'open' class is added */
+}
+
+.close-button {
+  position: absolute;
+  top: 20px;
+  right: 50px;
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.popup-content {
+  width: 100%;
+  height: 100%;
+}
+
+.nav {
+  z-index: 401;
+}
+
+
+.my-icon{
+  background-color: #3b82f6 ;
+  transition: background-color 0.3s ease 
+}
+.menu-box{
+  visibility: hidden;
+  opacity: 0; 
+  bottom: 260%;
+  transform: translate(-50%, 50%);
+  transition: opacity 0.3s ease 
+}
+.menu-box::before {
+  content: "";
+  position: absolute;
+  border: solid 5px transparent;
+  border-top: 5px solid white;
+  left: 50%;
+  transform:translate(-50%,50%);
+  bottom: -6px;
+  width: 13px;
+  height: 13px;
+}
+.ico:hover .menu-box{
+  visibility: visible; 
+  opacity: 1;  
+}
+.ico:hover .my-icon{
+  background-color: #1e40af; 
+}
+
+.modal-btn span{
+  font-size: 13px !important;
+}
+
+.reset {
+  background: transparent !important;
+}
+.reset:hover {
+  background-color: #f05252 !important;
+}
+
+.delete-btn:hover{
+  background-color: #d40808 !important;
+}

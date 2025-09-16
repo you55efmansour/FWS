@@ -1,0 +1,396 @@
+{
+  "login": {
+    "header": "Municipal Smart Flood Prevention Platform",
+    "login": "Login",
+    "userName": "User Name",
+    "password": "Password",
+    "forgetPassword": "forget my password",
+    "languageToggle": "Language"
+  },
+  "List": {
+    "header": "Permission management function",
+    "usersManagement": "Management",
+    "resetPassModal": "Reset PassModal",
+    "profileInformation": "Profile Information",
+    "changePassword": "Change Password"
+  },
+  "ChangePassword": {
+    "header": "Change Password",
+    "currentPassword": "Current Password",
+    "newPassword": "New Password"
+  },
+  "ProfileInformation": {
+    "header": "My Information",
+    "userName": "User Name",
+    "name": "Name",
+    "id": "Id",
+    "email": "Email",
+    "change": "Change"
+  },
+  "ResetPassword": {
+    "header": "Reset Password",
+    "adminPassword": "Admin Password",
+    "newPassword": "New Password",
+    "id": "Id",
+    "change": "Change"
+  },
+  "usersModal": {
+    "header": "Management",
+    "buttons": {
+      "usersRoles": "Users Roles",
+      "createNewUser": "Create New User"
+    },
+    "table": {
+      "headers": {
+        "name": "Name",
+        "userName": "User Name",
+        "email": "E-mail",
+        "state": "State"
+      },
+      "noUsers": "There are no users",
+      "loading": "Loading..."
+    },
+    "userStatus": {
+      "active": "Active",
+      "deactivate": "Deactivate"
+    }
+  },
+  "createNewUserModal": {
+    "header": "Create New User",
+    "form": {
+      "labels": {
+        "name": "Name",
+        "surname": "Surname",
+        "email": "Email",
+        "userName": "User Name",
+        "password": "Password"
+      },
+      "submitButton": {
+        "default": "Create",
+        "loading": "Loading..."
+      },
+      "roles":{
+        "label": "Roles",
+        "selected": "selected",
+        "of": "of",
+        "SelectAll": "Select All",
+        "ClearAll": "Clear All",
+        "General": "General"
+      }
+    }
+  },
+  "editUserModal": {
+    "header": "Edit User: {{name}}",
+    "form": {
+      "labels": {
+        "userName": "Username",
+        "name": "Name",
+        "surname": "Surname",
+        "email": "Email"
+      },
+      "buttons": {
+        "done": "Save Changes",
+        "delete": "Delete User",
+        "deactivate": "Deactivate",
+        "activate": "Activate"
+      }
+    },
+    "roles": {
+      "header": "Roles",
+      "selected": "{{count}} of {{total}} selected",
+      "selectAll": "Select All",
+      "clearAll": "Clear All",
+      "general": "General"
+    }
+  },
+  "usersRolesModal": {
+    "header": "Users Roles",
+    "buttons": {
+      "createNewRole": "Create New Role"
+    },
+    "table": {
+      "headers": {
+        "roleName": "Role Name"
+      }
+    }
+  },
+  "editRoleModal": {
+    "header": "Edit Role: {{name}}",
+    "form": {
+      "labels": {
+        "roleName": "Role Name",
+        "displayName": "Display Name",
+        "description": "Description"
+      },
+      "buttons": {
+        "done": "Save Changes",
+        "delete": "Delete Role"
+      }
+    },
+    "permissions": {
+      "header": "Permissions",
+      "selected": "{{count}} of {{total}} selected",
+      "selectAll": "Select All",
+      "clearAll": "Clear All",
+      "general": "General"
+    },
+    "alerts": {
+      "success": "Role updated successfully.",
+      "error": "Failed to update role."
+    }
+  },
+  "createNewRoleModal": {
+    "header": "Create New Role",
+    "form": {
+      "labels": {
+        "roleName": "Role Name",
+        "displayName": "Display Name",
+        "description": "Description"
+      },
+      "submitButton": {
+        "default": "Create Role"
+      }
+    },
+    "permissions": {
+      "header": "Permissions",
+      "selected": "{{count}} of {{total}} selected",
+      "selectAll": "Select All",
+      "clearAll": "Clear All",
+      "general": "General"
+    }
+  },
+  "editStationModal": {
+    "header": "Edit {{name}}",
+    "form": {
+      "labels": {
+        "name": "Name",
+        "longitude": "Longitude",
+        "latitude": "Latitude",
+        "alertL1": "Danger Alert",
+        "alertL2": "Warning Alert",
+        "alertL3": "Alert"
+      },
+      "buttons": {
+        "done": "Done",
+        "more": "Show More",
+        "less": "Show less"
+      }
+    }
+  },
+  "infDataTable": {
+    "header": "Detailed Information",
+    "columns": {
+      "longitude": "Longitude",
+      "latitude": "Latitude",
+      "level1Alert": "Level 1 Alert",
+      "level2Alert": "Level 2 Alert",
+      "state": "State",
+      "time": "Time",
+      "LastValue": "Last Value",
+      "stationNumber": "Station Number"
+    }
+  },
+  "stationsChart": {
+    "referenceLines": {
+      "danger": "Danger",
+      "warning": "Warning",
+      "safe": "Alert"
+    }
+  },
+  "stationsModal": {
+    "header": "{{stationName}} - {{station}}",
+    "labels": {
+      "stationId": "Station ID: {{id}}"
+    },
+    "selectOptions": {
+      "twentyFourHours": "24 Hours",
+      "sixHours": "6 Hours",
+      "threeHours": "3 Hours"
+    },
+    "alerts": {
+      "dataUnavailable": "Data is unavailable or empty for this time period."
+    }
+  },
+  "stationsTable": {
+    "headers": {
+      "time": "Time",
+      "waterDepth": "Water Depth"
+    }
+  },
+  "buttonBar": {
+    "getAll": "Get All",
+    "menuTitle": "Cities",
+    "loading": "Loading cities..."
+  },
+  "filterLayer": {
+    "header": "Layers",
+    "tabs": {
+      "base": "Base layer",
+      "forecast": "Forecast"
+    },
+    "layers": {
+      "waterLevel": "Water level Stations",
+      "sewer": "Sewer Stations",
+      "rain": "Rainfall station",
+      "floodNtc": "FloodNtc station"
+    },
+    "forecastEmpty": "No forecast layers yet."
+  },
+  "stationsSidePanel": {
+    "types": {
+      "WaterLevel": "Water level",
+      "Rain": "Rain",
+      "Sewer": "Sewer",
+      "FloodNTC": "Flood NTC"
+    },
+    "labels": {
+      "stations": "Stations",
+      "allRegions": "All regions",
+      "searchPlaceholder": "Search {{type}} stations...",
+      "collapsePanel": "Collapse stations panel",
+      "openPanel": "Open stations panel",
+      "collapse": "Collapse",
+      "stationsTitle": "Stations"
+    },
+    "status": {
+      "normal": "Normal",
+      "warning": "Warning",
+      "lv2": "Danger",
+      "lv3": "Emergency",
+      "unknown": "Unknown",
+      "active": "Active",
+      "inactive": "Inactive",
+      "maintenance": "Maintenance",
+      "outOfService": "Out of Service"
+    }
+  },
+  "stationsDataTable": {
+    "headers": {
+      "name": "Name",
+      "category": "Category",
+      "city": "City",
+      "lastResult": "Last Result",
+      "lastTime": "Last Time",
+      "warnLv1": "Warn Lv1",
+      "warnLv2": "Warn Lv2",
+      "warnLv3": "Warn Lv3",
+      "status": "Status",
+      "details": "Details"
+    },
+    "messages": {
+      "noStations": "No stations"
+    },
+    "common": {
+      "dash": "-"
+    }
+  },
+  "floodNtcStations": {
+    "tooltip": {
+      "name": "Name",
+      "category": "Category",
+      "status": "Status",
+      "waterLevel": "value",
+      "time": "Time"
+    },
+    "modal": {
+      "stationName": "FloodNtc"
+    }
+  },
+  "rainStations": {
+    "tooltip": {
+      "name": "Name",
+      "category": "Category",
+      "status": "Status",
+      "waterLevel": "value",
+      "time": "Time"
+    },
+    "modal": {
+      "stationName": "Rain"
+    }
+  },
+  "SewerStations": {
+    "tooltip": {
+      "name": "Name",
+      "category": "Category",
+      "status": "Status",
+      "waterLevel": "value",
+      "time": "Time"
+    },
+    "modal": {
+      "stationName": "Sewer"
+    }
+  },
+  "waterLevelsStations": {
+    "tooltip": {
+      "name": "Name",
+      "category": "Category",
+      "status": "Status",
+      "waterLevel": "value",
+      "time": "Time"
+    },
+    "modal": {
+      "stationName": "Water Level"
+    }
+  },
+  "notFound": {
+    "title": "404 - Page Not Found",
+    "message": "Sorry, the page you’re looking for doesn’t exist."
+  },
+  "roleError": {
+    "backHome": "Back Home",
+    "message": "Your role doesn't exist for this content"
+  },
+  "verifyAction": {
+    "title": "Are you sure that you want to {{action}} it?",
+    "yes": "Yes",
+    "no": "No"
+  },
+  "protectedRoute": {
+    "loading": "Loading..."
+  },
+  "table": {
+    "name": "Name",
+    "category": "Category",
+    "city": "City",
+    "county": "County",
+    "area": "Area",
+    "lastResult": "Last Result",
+    "lastTime": "Last Time",
+    "warnLv1": "Warn Lv1",
+    "warnLv2": "Warn Lv2",
+    "warnLv3": "Warn Lv3",
+    "status": "Status",
+    "alertH1": "Alert H1",
+    "alertH3": "Alert H3",
+    "alertH6": "Alert H6",
+    "alertH12": "Alert H12",
+    "alertH24": "Alert H24",
+    "floodH1": "Flood H1",
+    "floodH3": "Flood H3",
+    "floodH6": "Flood H6",
+    "floodH12": "Flood H12",
+    "floodH24": "Flood H24",
+    "details": "Details",
+    "info": "Info"
+  },
+  "management": {
+    "sidebar": {
+      "ariaLabel": "Sidebar with multi-level dropdown example",
+      "userManagement": "User Management",
+      "users": "Users",
+      "createNewUser": "Create New User",
+      "rolesManagement": "Roles Management",
+      "roles": "Roles",
+      "createNewRole": "Create New Role"
+    }
+  },
+  "gaugeChart": {
+    "header": "{{type}} Gauge",
+    "currentLevel": "Current Level",
+    "legend": {
+      "normal": "Normal ({{from}} - {{to}})",
+      "warning": "Warning ({{from}} - {{to}})",
+      "danger": "Danger ({{from}} - {{to}})"
+    }
+  }
+}
